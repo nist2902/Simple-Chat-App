@@ -1,19 +1,26 @@
 //
 //  AppDelegate.swift
-//  Simple Chat App
+//  Firebase Chat
 //
-//  Created by Николай Стукало on 08.02.2023.
+//  Created by Николай Стукало on 06.12.2022.
 //
 
 import UIKit
+import Firebase
+import IQKeyboardManagerSwift
 
-@main
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+@UIApplicationMain
+    class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        FirebaseApp.configure()
+        let db = Firestore.firestore()
+        
+        IQKeyboardManager.shared.enable = true
+        IQKeyboardManager.shared.enableAutoToolbar = false
+        IQKeyboardManager.shared.shouldResignOnTouchOutside = true
+        
         return true
     }
 
