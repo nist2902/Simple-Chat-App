@@ -61,10 +61,10 @@
 		1B5B2AD92993BBAA00DFB5C2 = {
 			isa = PBXGroup;
 			children = (
-				1B5B2AE42993BBAA00DFB5C2 /* Simple Chat App */,
-				1B5B2AE32993BBAA00DFB5C2 /* Products */,
-				9D2FEAA729301C92B3C68CD1 /* Pods */,
 				4C5D43DE2C95572A766F2B74 /* Frameworks */,
+				9D2FEAA729301C92B3C68CD1 /* Pods */,
+				1B5B2AE32993BBAA00DFB5C2 /* Products */,
+				1B5B2AE42993BBAA00DFB5C2 /* Simple Chat App */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,16 +79,16 @@
 		1B5B2AE42993BBAA00DFB5C2 /* Simple Chat App */ = {
 			isa = PBXGroup;
 			children = (
-				1B5B2AE52993BBAA00DFB5C2 /* AppDelegate.swift */,
-				1B5B2AE72993BBAA00DFB5C2 /* SceneDelegate.swift */,
+				1B71DA1F2993BDE3006E73D7 /* Controllers */,
 				1BA45CE42993C80E00FD55BF /* Models */,
 				1B71DA182993BDB7006E73D7 /* Views */,
-				1B71DA1F2993BDE3006E73D7 /* Controllers */,
+				1B5B2AE52993BBAA00DFB5C2 /* AppDelegate.swift */,
 				1B5B2AEE2993BBAB00DFB5C2 /* Assets.xcassets */,
 				1B5B2B042993BD1800DFB5C2 /* Constants.swift */,
-				1B5B2AF02993BBAB00DFB5C2 /* LaunchScreen.storyboard */,
-				1B5B2AF32993BBAB00DFB5C2 /* Info.plist */,
 				1B5B2AFD2993BCB300DFB5C2 /* GoogleService-Info.plist */,
+				1B5B2AF32993BBAB00DFB5C2 /* Info.plist */,
+				1B5B2AF02993BBAB00DFB5C2 /* LaunchScreen.storyboard */,
+				1B5B2AE72993BBAA00DFB5C2 /* SceneDelegate.swift */,
 			);
 			path = "Simple Chat App";
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 				1BA45CE52993C82200FD55BF /* Message.swift */,
 			);
 			name = Models;
-			path = Views/Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		4C5D43DE2C95572A766F2B74 /* Frameworks */ = {
@@ -278,6 +278,7 @@
 				1B5B2AF12993BBAB00DFB5C2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
